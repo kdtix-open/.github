@@ -14,8 +14,8 @@ send a detailed report to our security team at
 [security@kdtix.com](mailto:security@kdtix.com).  Include steps to
 reproduce the issue, the impact and any suggested fixes if available.  We
 will acknowledge your report within a reasonable time and keep you
-updated as we investigate【452443717429164†L0-L5】.
+updated as we investigate.
 
 We ask that you give us a reasonable amount of time to address the
 vulnerability before any disclosure.  We will work with you to ensure
-that coordinated disclosure is handled responsibly【696492342447898†L136-L143】.
+that coordinated disclosure is handled responsibly.
