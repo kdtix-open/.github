@@ -1,0 +1,15 @@
+# CODEOWNERS - Automated review requests for high impact files
+#
+# The rules below assign code reviewers for files in this organization.
+# The order matters: the last matching pattern takes precedence【555499729546012†L4-L5】.
+
+# All files are jointly owned by the maintainers and dev teams
+* @kdtix-open/maintainers @kdtix-open/dev
+
+# Configuration files are also owned by both teams
+/.github/ISSUE_TEMPLATE/* @kdtix-open/maintainers @kdtix-open/dev
+/.github/PULL_REQUEST_TEMPLATE.md @kdtix-open/maintainers @kdtix-open/dev
+
+# Example of excluding specific files (negating a previous rule)
+!package.json
+!package-lock.json

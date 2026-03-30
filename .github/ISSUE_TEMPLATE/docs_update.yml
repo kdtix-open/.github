@@ -1,0 +1,54 @@
+name: Documentation update
+description: Suggest an improvement, correction, or addition to the documentation.
+title: "[Docs]: "
+labels:
+  - documentation
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the documentation.
+
+        Please be as specific as possible so we can update the right content quickly.
+  - type: input
+    id: affected-page
+    attributes:
+      label: Affected page
+      description: Which page, section, file, or URL needs to be updated?
+      placeholder: docs/getting-started.md or https://example.com/docs/page
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-change
+    attributes:
+      label: Suggested change
+      description: What should be added, corrected, removed, or clarified?
+      placeholder: Describe the documentation update you want to see.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change needed? What confusion, error, or gap does it resolve?
+      placeholder: Explain why this update would improve the docs.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Add links, screenshots, examples, or source material that supports the change.
+      placeholder: Optional supporting details.
+    validations:
+      required: false
+  - type: checkboxes
+    id: docs-checks
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I verified that the issue is about documentation, not a product bug or feature request.
+          required: true
+        - label: I included the specific page or section that needs to be updated.
+          required: true

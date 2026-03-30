@@ -1,0 +1,62 @@
+name: Feature request
+description: Suggest an improvement, enhancement, or new capability.
+title: "[Feature]: "
+labels:
+  - enhancement
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea.
+
+        Before submitting, please search existing issues and discussions to see whether this request has already been proposed.
+  - type: textarea
+    id: feature-summary
+    attributes:
+      label: Feature summary
+      description: What would you like to see added or changed?
+      placeholder: A concise summary of the feature request.
+    validations:
+      required: true
+  - type: textarea
+    id: problem-to-solve
+    attributes:
+      label: Problem it solves
+      description: What user need, workflow gap, or pain point does this address?
+      placeholder: Describe the problem or limitation you are experiencing.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+      description: Describe the solution you would like to see.
+      placeholder: Describe your ideal outcome or implementation from a user perspective.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Alternatives considered
+      description: Have you considered any workarounds or other approaches?
+      placeholder: Describe alternatives, trade-offs, or current workarounds.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add mockups, examples, references, or links to related issues.
+      placeholder: Share any extra context that would help evaluate this request.
+    validations:
+      required: false
+  - type: checkboxes
+    id: feature-checks
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I searched the existing issues and discussions and did not find a duplicate.
+          required: true
+        - label: I explained the problem this feature would solve.
+          required: true

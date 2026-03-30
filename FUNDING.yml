@@ -1,0 +1,10 @@
+# GitHub sponsors will show a sponsor button linking to the profiles listed here.
+github:
+  - chris-kreager
+  - ckreager
+
+# For the organisation‑wide funding page we use a Stripe donation link with a
+# client reference ID of `kdtix-open`. Individual repositories can override
+# this in their own FUNDING.yml files by using
+# `client_reference_id=kdtix-open-{repo_name}`.
+custom: "https://donate.stripe.com/cNi6oG973dks4mOfLv9AA00?client_reference_id=kdtix-open"
